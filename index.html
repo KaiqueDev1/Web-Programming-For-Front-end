@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Wiki | Pro</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="header-section">
+        <h1 class="title-header">RICK AND MORTY</h1>
+        <div class="section-link">
+          <a
+            href="https://pt.wikipedia.org/wiki/Rick_and_Morty"
+            class="link-header">
+            Sobre
+          </a>
+          <a
+            href="https://www.netflix.com/br/title/80014749" target="_blank"
+            class="link-header">
+            Onde assistir
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="characters-container"></div>
+    </main>
+
+    <div
+      id="drawer-overlay"
+      class="drawer-overlay">
+      <aside
+        id="side-drawer"
+        class="side-drawer">
+        <button
+          id="close-drawer"
+          class="close-btn">
+          &times;
+        </button>
+        <div id="drawer-content"></div>
+      </aside>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
